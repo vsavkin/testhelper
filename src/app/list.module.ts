@@ -33,6 +33,7 @@ export class SnackListResolver implements Resolve<any> {
 
 @NgModule({
   declarations: [SnackListComponent],
+  entryComponents: [SnackListComponent],
   imports: [
     CommonModule,
     RouterModule.forChild([{
